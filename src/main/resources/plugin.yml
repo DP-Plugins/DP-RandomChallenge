@@ -1,0 +1,21 @@
+name: DP-RandomChallenge
+version: 1.0.0
+main: com.darksoldier1404.dprdch.RandomChallenge
+authors: [ DEAD_POOLIO_ ]
+api-version: 1.21
+depend:
+  - DPP-Core
+softdepend:
+  - PlaceholderAPI
+  - Essentials
+
+commands:
+  dprandomchallenge:
+    aliases: [ randomchallenge, rc, challenge ]
+    description: DP-RandomChallenge main command
+    usage: /dprandomchallenge [gui|admin|create|reload|info]
+
+permissions:
+  dprdch.admin:
+    description: DP-RandomChallenge admin permission
+    default: op

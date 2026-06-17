@@ -1,0 +1,13 @@
+Settings:
+  prefix: "&f[ &6DP-RandomChallenge &f] "
+  Lang: en_US
+  # TIME: 일정 시간마다 자동 갱신 / COMPLETE: 완료 즉시 갱신 / MIXED: 완료 시 즉시 + 미완료 시 시간 초과 갱신
+  # FIXED: 자동 배정/갱신 없음 — 관리자나 시스템이 커맨드(/rc admin give)로만 부여, 완료 후 대기
+  renewal-mode: MIXED
+  # 갱신 주기 (초 단위, TIME / MIXED 모드에서 사용)
+  time-interval: 1800
+  # 진행도 변동 시 액션바 표시 여부
+  progress-actionbar: true
+
+# 챌린지는 config.yml이 아닌 게임 내 GUI(/rc admin)로 제작/관리합니다.
+# 데이터는 plugins/DP-RandomChallenge/data/challenges/ 에 저장됩니다.
